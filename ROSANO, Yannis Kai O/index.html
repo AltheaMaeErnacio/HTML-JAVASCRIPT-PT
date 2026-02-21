@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Daily Bible Verse</title>
+
+  <!-- Link CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="app">
+
+    <h1>📖 Daily Bible Verse</h1>
+    <span class="badge">Today's Verse</span>
+    <p id="date"></p>
+
+    <div id="verseBox">
+      <p id="verse">Verse will appear here</p>
+      <p id="reference"></p>
+    </div>
+
+    <button id="newBtn">💌 New Verse</button>
+    <button id="favBtn">⭐ Favorite</button>
+    <button id="undoBtn">↩️ Undo</button>
+    <button id="viewBtn">📜 View Favorites</button>
+
+    <hr>
+
+    <div id="favorites">
+      <h3>Saved Verses</h3>
+      <ul id="favoritesList"></ul>
+    </div>
+
+    <p class="footer">Simple Daily Bible Verse App</p>
+
+  </div>
+
+  <!-- Link JavaScript (ALWAYS at the bottom) -->
+  <script src="script.js"></script>
+
+</body>
+</html>

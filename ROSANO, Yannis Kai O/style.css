@@ -1,0 +1,93 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #e0eafc, #cfdef3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.app {
+  background: white;
+  padding: 25px;
+  width: 420px;
+  text-align: center;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.badge {
+  display: inline-block;
+  background: #4a6cf7;
+  color: white;
+  font-size: 12px;
+  padding: 4px 12px;
+  border-radius: 20px;
+  margin-bottom: 8px;
+}
+
+#date {
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 10px;
+}
+
+#verseBox {
+  background: #f0f8ff;
+  border-left: 5px solid #4a6cf7;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+#verse {
+  font-size: 18px;
+}
+
+#reference {
+  font-weight: bold;
+  color: #555;
+}
+
+button {
+  padding: 9px 14px;
+  margin: 6px;
+  border: none;
+  background: #4a6cf7;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+button:hover {
+  background: #3a55c5;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 15px 0;
+}
+
+#favorites {
+  display: none;
+  text-align: left;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+#favorites li {
+  font-size: 14px;
+  margin-bottom: 6px;
+  padding: 4px;
+  border-radius: 5px;
+  background: #eef2ff;
+}
+
+.footer {
+  font-size: 11px;
+  color: #999;
+  margin-top: 10px;
+}
